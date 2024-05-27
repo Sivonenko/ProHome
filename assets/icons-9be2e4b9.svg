@@ -50,7 +50,7 @@
             <path fill="#fff" style="fill: var(--color1, #fff)" d="M25.652 17.978h-2.374v2.374h2.374v-2.374z"></path>
             <path fill="#fff" style="fill: var(--color1, #fff)" d="M23.277 20.946h2.374v2.374h-2.374v-2.374z"></path>
         </symbol>
-        <symbol id="icon-Ic-Plumbing-Filled" viewBox="0 0 33 32">
+        <symbol id="icon-Ic-Plumbing" viewBox="0 0 33 32">
             <path fill="#fff" style="fill: var(--color1, #fff)"
                 d="M27.083 5.889l-3.183-3.048c-1.171-1.121-3.078-1.121-4.25 0l-4.25 4.069 3.183 3.048 3.183-3.048 5.316 5.090c0.844-0.812 1.317-1.91 1.317-3.055s-0.474-2.244-1.317-3.055z">
             </path>
