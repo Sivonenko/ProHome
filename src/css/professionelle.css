@@ -62,6 +62,7 @@
     border-radius: 12px;
     padding: 12px 24px;
     background-color: #15b2f5;
+    display: block;
   
 }
 @media only screen and (min-width: 375px) {
