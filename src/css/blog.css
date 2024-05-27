@@ -56,7 +56,7 @@ line-height: 1.42857;
 text-align: center;
 color: #545971;
 border-radius: 999px;
-background: #f3f5f9;
+background-color: #f3f5f9;
 }
 
 .link-desc {
@@ -116,7 +116,14 @@ margin-bottom: 24px;
 .blog-listing {
     gap: 23px;
 }
-
+.blog-listing-link{
+    transition: color 350ms cubic-bezier(0.165, 0.84, 0.44, 1), background-color 350ms cubic-bezier(0.165, 0.84, 0.44, 1) ;
+}
+.blog-listing-link:hover,
+.blog-listing-link:focus{
+    background-color: #15b2f5;
+    color: #fff;
+}
 .link-none {
     display: none;
 }
