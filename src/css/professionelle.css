@@ -6,48 +6,128 @@
 .prof-img {
     margin-bottom: 32px;
 }
-.prof-text-wrap {
-}
+
+.prof-text-wrap {}
+
 .prof-title {
-font-size: 24px;
-color: #171921;
-margin-bottom: 14px;
+    font-size: 24px;
+    color: #171921;
+    margin-bottom: 14px;
 }
+
 .prof-text {
-font-size: 14px;
-line-height: 2;
-margin-bottom: 32px;
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 32px;
 }
-.prof-list {
+
+.list-wrap {
     display: flex;
     flex-direction: column;
     gap: 24px;
     margin-bottom: 48px;
 }
+
+.prof-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+
+}
+
 .prof-item {
     display: flex;
     gap: 12px;
     align-items: center;
 }
+
 .prof-icon {
     fill: #1f3584;
     stroke-width: 2px;
 }
+
 .prof-desc {
-font-weight: 600;
-font-size: 16px;
-line-height: 1.75;
-color: #1f3584;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #1f3584;
 }
-.prof-link{
-font-weight: 500;
-line-height: 1.55556;
-color: #fff;
-border-radius: 12px;
-max-width: 327px;
-height: 52px;
-background-color: #15b2f5;
-display: flex;
-justify-content: center;
-align-items: center;
+
+.prof-link {
+    font-weight: 500;
+    line-height: 1.55556;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 12px;
+    padding: 12px 24px;
+    background-color: #15b2f5;
+  
+}
+@media only screen and (min-width: 375px) {
+   .prof-link{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+    .prof {
+        padding-top: 100px;
+        padding-bottom: 66px;
+    }
+
+    .prof-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .prof-img {}
+
+    .prof-text-wrap {
+        width: 600px;
+    }
+
+    .prof-title {
+
+        font-size: 52px;
+        line-height: 1.23077;
+        margin-bottom: 24px;
+
+    }
+
+    .prof-text {
+        font-size: 18px;
+        line-height: 1.55556;
+        margin-bottom: 56px;
+    }
+
+    .list-wrap {
+        flex-direction: row;
+        gap: 57px;
+        margin-bottom: 69px;
+    }
+
+    .prof-list {
+        gap: 32px;
+    }
+
+    .prof-item {}
+
+    .prof-icon {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .prof-desc {
+    font-weight: 700;
+font-size: 20px;
+line-height: 1.4;}
+
+    .prof-link {
+        padding: 18px 75px;
+        font-size: 20px;
+line-height: 1.4;
+    }
 }
