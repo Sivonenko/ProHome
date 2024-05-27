@@ -84,14 +84,10 @@ height: 70px;
 margin: 0;
 font-size: 24px;
 line-height: 1.33333;
-transition: background-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715), color 250ms cubic-bezier(0.47, 0, 0.745, 0.715) ;
+ background: linear-gradient(90deg, #15b2f5 56.81%, #67d0fd 100%);
 
 }
-.hero-btn:hover,
-.hero-btn:focus{
-    background-color: #fff;
-    color: #15b2f5;
-}
+
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
 	screen and (min-resolution: 192dpi) and (min-width: 1280px),
 	screen and (min-resolution: 2dppx) and (min-width: 1280px) {
