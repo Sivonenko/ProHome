@@ -127,8 +127,13 @@ font-size: 20px;
 line-height: 1.4;}
 
     .prof-link {
-        padding: 18px 75px;
+        padding: unset;
+        width: 451px;
+height: 64px;
         font-size: 20px;
 line-height: 1.4;
+display: flex;
+justify-content: center;
+align-items: center;
     }
 }
