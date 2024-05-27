@@ -1,0 +1,18 @@
+body{
+     font-family: "Plus Jakarta Sans", sans-serif;
+     color: #545971;
+     font-size: 18px;
+}
+.container {
+    max-width: 375px;
+    padding: 0 24px;
+    margin: 0 auto;
+   
+}
+@media only screen and (min-width: 1280px) {
+   .container{
+    max-width: 1440px;
+    padding: 0 80px;
+    
+  }
+}
