@@ -1,0 +1,33 @@
+.prof {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.prof-img {
+    margin-bottom: 32px;
+}
+.prof-text-wrap {
+}
+.prof-title {
+font-size: 24px;
+color: #171921;
+margin-bottom: 14px;
+}
+.prof-text {
+font-size: 14px;
+line-height: 2;
+margin-bottom: 32px;
+}
+.prof-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.prof-item {
+}
+.prof-icon {
+    stroke: #1f3584;
+    stroke-width: 2px;
+}
+.prof-desc {
+}

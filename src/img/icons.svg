@@ -173,5 +173,6 @@
             </path>
             <path fill="#fff" style="fill: var(--color1, #fff)" d="M12.395 24.638h7.243v5.242h-7.243v-5.242z"></path>
         </symbol>
+
     </defs>
 </svg>
