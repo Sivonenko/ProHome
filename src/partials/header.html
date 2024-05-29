@@ -14,10 +14,26 @@
         <li><a href="" class="nav-link">Kontakt</a></li>
       </ul>
     </nav>
-    <button class="menu-open-btn">
+    <button type="button" class="menu-open-btn" data-menu-open>
       <svg class="menu-open-icon" width="24" height="24">
         <use href="./img/icons.svg#icon-menu"></use>
       </svg>
     </button>
+    <div class="backdrop" data-menu>
+      <div class="mob-menu">
+        <button type="button" class="mob-close-btn" data-menu-close>
+          <svg class="mob-close-icon" width="32" height="32">
+            <use href="./img/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mob-list">
+          <li><a href="" class="mob-link">Om os</a></li>
+          <li><a href="" class="mob-link">Tjenester</a></li>
+          <li><a href="" class="mob-link">Vores Blog</a></li>
+          <li><a href="" class="mob-link">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
+
 </header>
