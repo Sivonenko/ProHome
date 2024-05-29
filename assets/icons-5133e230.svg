@@ -1,7 +1,6 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
-
         <symbol id="icon-apparater" viewBox="0 0 33 32">
             <path fill="#fff" style="fill: var(--color1, #fff)"
                 d="M23.344 6.364c-0.446 0.463-0.689 1.085-0.675 1.727 0.027 1.338 1.136 2.4 2.475 2.373 0.643-0.013 1.255-0.281 1.701-0.744l3.224-3.354c0.638 1.266 0.866 2.698 0.655 4.099s-0.852 2.702-1.835 3.725c-0.983 1.022-2.259 1.715-3.652 1.983s-2.836 0.098-4.128-0.486c-1.707-1.27-2.464-2.006-3.5-3.355-0.638-1.266-0.866-2.698-0.655-4.099s0.853-2.702 1.835-3.724c0.983-1.022 2.259-1.715 3.652-1.983s2.836-0.098 4.128 0.486l-3.224 3.354z">
@@ -50,7 +49,7 @@
             <path fill="#fff" style="fill: var(--color1, #fff)" d="M25.652 17.978h-2.374v2.374h2.374v-2.374z"></path>
             <path fill="#fff" style="fill: var(--color1, #fff)" d="M23.277 20.946h2.374v2.374h-2.374v-2.374z"></path>
         </symbol>
-        <symbol id="icon-Ic-Plumbing" viewBox="0 0 33 32">
+        <symbol id="icon-Ic-Plumbing-Filled" viewBox="0 0 33 32">
             <path fill="#fff" style="fill: var(--color1, #fff)"
                 d="M27.083 5.889l-3.183-3.048c-1.171-1.121-3.078-1.121-4.25 0l-4.25 4.069 3.183 3.048 3.183-3.048 5.316 5.090c0.844-0.812 1.317-1.91 1.317-3.055s-0.474-2.244-1.317-3.055z">
             </path>
